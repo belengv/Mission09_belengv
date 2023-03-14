@@ -20,16 +20,17 @@ namespace Mission09_belengv.Models
         }
 
         public DbSet<Book> Books { get; set; }
+        public DbSet<Purchase> Purchases { get; set; }
 
 
-//        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-//        {
-//            if (!optionsBuilder.IsConfigured)
-//            {
-//#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
-//                optionsBuilder.UseSqlite("Data Source = Bookstore.sqlite");
-//            }
-//        }
+        //        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //        {
+        //            if (!optionsBuilder.IsConfigured)
+        //            {
+        //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. See http://go.microsoft.com/fwlink/?LinkId=723263 for guidance on storing connection strings.
+        //                optionsBuilder.UseSqlite("Data Source = Bookstore.sqlite");
+        //            }
+        //        }
 
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
